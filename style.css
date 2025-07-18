@@ -43,8 +43,10 @@ button {
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: black;
+    color: #fff;
+    background: black;
     transition: background 0.5s;
+    font-size: x-large;
 }
 
 button:hover {
