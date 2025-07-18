@@ -12,6 +12,13 @@ document.addEventListener("keypress", function() {
         levelUp();
     }
 });
+let btn = document.querySelector("button");
+btn.addEventListener("click", function() {
+    if (started == false) {
+        started=true;
+        levelUp();
+    }
+});
 
 function gameFlash(btn) {
     btn.classList.add("flash");
